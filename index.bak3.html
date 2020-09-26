@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>III Pré-Jornadas do Internato Médico MGF ARSLVT</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all,follow">
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+    <!-- Lightbox-->
+    <link rel="stylesheet" href="vendor/lightbox2/css/lightbox.min.css">
+    <!-- theme stylesheet-->
+    <link rel="stylesheet" href="css/style.green.css" id="theme-stylesheet">
+    <!-- Custom stylesheet - for your changes-->
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- Leaflet CSS - For the map-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.css">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="favicon.png">
+    <!-- Tweaks for older IEs--><!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+  </head>
+  <body>
+    <!-- Hero Section
+    <section id="intro" style="" class="hero bg-cover">
+      <div class="overlay">
+        <div class="content h-100 d-flex align-items-center">
+          <div class="container h-75">
+            <div class="row">
+              <figure class="col">
+                <img src="./img/bridge.png" class="img-fluid">
+              </figure>
+            </div>
+            <div class="row">
+              <div class="col text-center text-white mh-25">
+                <h2 class="text-uppercase text-white">ESTAMOS EM CONSTRUÇÃO</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="#info" class="scroll-btn link-scroll"><i class="fas fa-angle-double-down"></i></a>
+      </div>
+    </section>
+    -->
+    <!-- Countdown banner -->
+    <section id="cdown" class="bg-cover">
+      <div class="overlay">
+        <div class="container h-100 align-items-center">
+          <div class="row h-100">
+            <div class="col text-center justify-content-center align-self-center">
+              <h4 class="text-white mb-0 font-weight-bold text-uppercase">As pré-jornadas terão início dentro de</h4>
+              <div id="clock" class="countdown text-white"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Navbar-->
+    <header class="header sticky-top">
+      <nav class="navbar navbar-expand-md bg-white border-bottom py-0">
+        <div class="container">
+          <a href="#" class="navbar-brand py-1 link-scroll"><img src="./img/smallbridge.svg" alt="" class="img-fluid" style="height:50px;"></a>
+          <div id="navbarSupportedContent" class="d-flex flex-row order-2 order-md-3">
+            <ul class="navbar-nav flex-row">
+              <li class="nav-item"><a role="button" href="#inscrever" class="link-scroll"><button class="btn btn-primary rounded-pill nav-link text-uppercase text-white pl-3 pr-3 mr-2 nav-link" type="button">Inscrever-me</button></a></li>
+            </ul>
+            <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><span class="fas fa-bars"></span></button>
+          </div>
+          <div id="navbarSupportedContent" class="collapse navbar-collapse order-3 order-md-2">
+            <ul class="navbar-nav ml-auto px-3">
+              <!--<li class="nav-item active"><a href="#intro" class="nav-link text-uppercase link-scroll">Intro</a></li>-->
+              <li class="nav-item"><a href="#info" class="nav-link text-uppercase link-scroll">Informações</a></li>
+              <!--<li class="nav-item"><a href="#map" class="nav-link text-uppercase link-scroll">Mapa</a></li>-->
+              <li class="nav-item"><a href="#program" class="nav-link text-uppercase link-scroll">Programa</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- About Section-->
+    <section id="info" class="about pb-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <header class="text-center mb-5">
+              <h2 class="lined text-uppercase">Bem-vindo!</h2>
+            </header>
+            <p class="lead">Em <span class="font-weight-bold bg-gray">2020</span> a tua Comissão de Internos de MGF da ARSLVT organiza um evento <span class="font-weight-bold bg-gray">online</span> para te preparar para o regresso das Jornadas <span class="text-muted">no futuro próximo.</span></p>
+            <p>Aqui vai ficar um pequeno texto introdutório que ainda não está escrito por ninguém. No entretanto aqui fica algum texto para encher.</p>
+            <p>Possumus reprehenderit te appellat. Et fore nisi dolor mandaremus ab incurreret 
+              se deserunt, excepteur culpa consequat nam nam litteris non tempor sed quem 
+              incurreret est iudicem, duis nostrud commodo iis te sunt officia concursionibus, 
+              enim officia an minim enim. Qui proident concursionibus, ea tamen firmissimum 
+              est deserunt aliqua deserunt a de velit nulla duis cupidatat. Elit offendit 
+              adipisicing, tamen probant ne quorum quid non o aut cillum quorum eram, nulla 
+              voluptatibus appellat quae mandaremus, doctrina do legam, senserit irure multos 
+              qui nisi te quid occaecat aliquip aut lorem incurreret ab illum culpa.</p>
+            <!--<div class="container mb-4 mt-3">
+              <div class="row">
+                <div class="col-sm text-center">
+                  <button class="shadow btn btn-outline-primary btn-block h-100">
+                    <div class="icon mb-3"><i class="fas fa-book-medical"></i></div>
+                    <h4 class="text-uppercase font-weight-bold">Consultar programa</h4>
+                    <p class="small text-gray">Programa a divulgar.</p>
+                  </button>
+                </div>
+                <div class="col-sm text-center">
+                  <button class="shadow btn btn-outline-primary btn-block h-100">
+                    <div class="icon mb-3"><i class="fas fa-user-plus"></i></div>
+                    <h4 class="text-uppercase font-weight-bold">Inscrever-me</h4>
+                    <p class="small text-gray">Inscrições ainda não abertas.</p>
+                  </button>
+                </div>
+              </div>
+            </div>-->
+          </div>
+          <div class="col-lg-6 mb-3"><img src="img/ONB6V00.jpg" alt="..." class="img-fluid"></div>
+        </div>
+      </div>
+    </section>
+    <!-- Map
+    <section id="map" class="border-bottom border-top"></section>-->
+    <!-- Programa -->
+    <section id="program" class="bg-gray pt-3 pb-3">
+      <div class="container">
+        <!--<header class="text-center mb-5">
+          <h2 class="lined text-uppercase">Services</h2>
+        </header>-->
+        <div class="row text-center">
+          <p class="col lead">Este ano o tema das tuas pré-jornadas é:</p>
+        </div>
+        <div class="row text-center">
+          <h2 class="col pt-2">XXXXXXXXXXXXXX</h2>
+        </div>
+              <div class="row">
+                <div class="col-sm pb-3">
+                  <a role="button" href="#inscrever" class="link-scroll"><button class="shadow btn btn-outline-primary btn-block h-100">
+                    <div class="icon mb-3"><i class="fas fa-book-medical align-middle"></i></div>
+                    <h4 class="text-uppercase font-weight-bold">Consultar programa</h4>
+                    <p class="small text-gray">Programa a divulgar.</p>
+                    </button></a>
+                </div>
+                <div class="col-sm pb-3">
+                  <a role="button" href="#inscrever" class="link-scroll"><button class="shadow btn btn-outline-primary btn-block h-100">
+                    <div class="icon mb-3"><i class="fas fa-user-plus align-middle"></i></div>
+                    <h4 class="text-uppercase font-weight-bold">Inscrever-me</h4>
+                    <p class="small text-gray">Inscrições ainda não abertas.</p>
+                  </button></a>
+                </div>
+              </div>
+      </div>
+    </section>
+    <section id="inscrever" class="bg-white pt-5 pb-3">
+      <div class="container">
+        <header class="text-center mb-5">
+          <h2 class="lined text-uppercase">Inscrição</h2>
+        </header>
+        <div class="row justify-content-center mx-auto">
+          <a role="button" href="#"><button class="shadow-sm btn btn-outline-primary btn-sm d-inline-block text-uppercase font-weight-bold h6 mb-3">
+            <span class="icon" style="color:inherit;"><i class="fas fa-external-link-square-alt align-middle"></i></span> Abrir formulário em nova janela
+          </button></a>
+        </div>
+        <div class="embed-responsive embed-responsive-1by1 bg-gray">
+            <iframe class="embed-responsive-item" src="https://docs.google.com/forms/d/e/1FAIpQLSfijWyJCgJD79I2AJUWUVP7PdIjrHOCImdmotVoyxF9ZidUSg/viewform?embedded=true"></iframe>
+        </div>
+      </div>
+    </section>
+    <!-- Portfolio Section
+    <section id="portfolio" class="pb-0">
+      <header class="text-center mb-4">
+        <h2 class="lined text-uppercase mb-5">Portfolio</h2>
+        <p>You can make also a portfolio or image gallery.</p>
+      </header>
+      <div class="row p-0">           
+        <div class="col-lg-3 col-md-4 col-6 p-0"><a href="img/portfolio-1.jpg" data-lightbox="image-1" data-title="My caption" class="d-block"><img src="img/portfolio-1.jpg" alt="..." class="img-fluid d-block mx-auto"></a></div>
+        <div class="col-lg-3 col-md-4 col-6 p-0"><a href="img/portfolio-2.jpg" data-lightbox="image-1" data-title="My caption" class="d-block"><img src="img/portfolio-2.jpg" alt="..." class="img-fluid d-block mx-auto"></a></div>
+        <div class="col-lg-3 col-md-4 col-6 p-0"><a href="img/portfolio-3.jpg" data-lightbox="image-1" data-title="My caption" class="d-block"><img src="img/portfolio-3.jpg" alt="..." class="img-fluid d-block mx-auto"></a></div>
+        <div class="col-lg-3 col-md-4 col-6 p-0"><a href="img/portfolio-4.jpg" data-lightbox="image-1" data-title="My caption" class="d-block"><img src="img/portfolio-4.jpg" alt="..." class="img-fluid d-block mx-auto"></a></div>
+        <div class="col-lg-3 col-md-4 col-6 p-0"><a href="img/portfolio-5.jpg" data-lightbox="image-1" data-title="My caption" class="d-block"><img src="img/portfolio-5.jpg" alt="..." class="img-fluid d-block mx-auto"></a></div>
+        <div class="col-lg-3 col-md-4 col-6 p-0"><a href="img/portfolio-6.jpg" data-lightbox="image-1" data-title="My caption" class="d-block"><img src="img/portfolio-6.jpg" alt="..." class="img-fluid d-block mx-auto"></a></div>
+        <div class="col-lg-3 col-md-4 col-6 p-0"><a href="img/portfolio-7.jpg" data-lightbox="image-1" data-title="My caption" class="d-block"><img src="img/portfolio-7.jpg" alt="..." class="img-fluid d-block mx-auto"></a></div>
+        <div class="col-lg-3 col-md-4 col-6 p-0"><a href="img/portfolio-8.jpg" data-lightbox="image-1" data-title="My caption" class="d-block"><img src="img/portfolio-8.jpg" alt="..." class="img-fluid d-block mx-auto"></a></div>
+      </div>
+    </section> -->
+    <!-- Text Section
+    <section id="text" class="bg-gray">
+      <div class="container">
+        <header class="text-center mb-5">
+          <h2 class="lined text-uppercase">Text Page</h2>
+        </header>
+        <div class="row">
+          <div class="col-lg-6">
+            <p>Able an hope of body. Any nay shyness article matters own removal nothing his forming. Gay own additions education satisfied the perpetual. If he cause manor happy. Without farther she exposed saw man led. Along on happy could cease green oh.</p>
+          </div>
+          <div class="col-lg-6">
+            <p>Betrayed cheerful declared end and. Questions we additions is extremely incommode. Next half add call them eat face. Age lived smile six defer bed their few. Had admitting concluded too behaviour him she. Of death to or to being other.</p>
+          </div>
+          <div class="col-lg-6">
+            <p>Effects present letters inquiry no an removed or friends. Desire behind latter me though in. Supposing shameless am he engrossed up additions. My possible peculiar together to. Desire so better am cannot he up before points. Remember mistaken opinions it pleasure of debating. Court front maids forty if aware their at. Chicken use are pressed removed.</p>
+          </div>
+          <div class="col-lg-6">
+            <p>Saw yet kindness too replying whatever marianne. Old sentiments resolution admiration unaffected its mrs literature. Behaviour new set existence dashwoods. It satisfied to mr commanded consisted disposing engrossed. Tall snug do of till on easy. Form not calm new fail.</p>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <!-- Team Section
+    <section id="team">
+      <div class="container">
+        <header class="text-center mb-5">
+          <h2 class="text-uppercase lined">Our team</h2>
+        </header>
+        <div class="row text-center">
+          <div class="col-lg-3 col-md-6 mb-4"><img src="img/person-1.jpg" alt="Han Solo" class="img-fluid mb-4">
+            <h4 class="font-weight-bold text-uppercase"><a href="#" class="no-anchor-style">Han Solo</a></h4>
+            <p class="small text-gray text-uppercase">Founder</p>
+            <ul class="mb-0 list-inline mb-3">
+              <li class="list-inline-item"><a href="#" class="social-link social-link-facebook"><i class="fab fa-facebook-f"></i></a></li>
+              <li class="list-inline-item"><a href="#" class="social-link social-link-twitter"><i class="fab fa-twitter"></i></a></li>
+              <li class="list-inline-item"><a href="#" class="social-link social-link-google-plus"><i class="fab fa-google-plus-g"></i></a></li>
+              <li class="list-inline-item"><a href="#" class="social-link social-link-instagram"><i class="fab fa-instagram"></i></a></li>
+              <li class="list-inline-item"><a href="#" class="social-link social-link-email"><i class="fas fa-envelope"></i></a></li>
+            </ul>
+            <p class="small text-gray">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4"><img src="img/person-2.jpg" alt="Luke skywalker" class="img-fluid mb-4">
+            <h4 class="font-weight-bold text-uppercase"><a href="#" class="no-anchor-style">Luke skywalker</a></h4>
+            <p class="small text-gray text-uppercase">CTO</p>
+            <ul class="mb-0 list-inline mb-3">
+              <li class="list-inline-item"><a href="#" class="social-link social-link-facebook"><i class="fab fa-facebook-f"></i></a></li>
+              <li class="list-inline-item"><a href="#" class="social-link social-link-twitter"><i class="fab fa-twitter"></i></a></li>
+              <li class="list-inline-item"><a href="#" class="social-link social-link-google-plus"><i class="fab fa-google-plus-g"></i></a></li>
+              <li class="list-inline-item"><a href="#" class="social-link social-link-instagram"><i class="fab fa-instagram"></i></a></li>
+              <li class="list-inline-item"><a href="#" class="social-link social-link-email"><i class="fas fa-envelope"></i></a></li>
+            </ul>
+            <p class="small text-gray">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4"><img src="img/person-3.jpg" alt="Princess Leia" class="img-fluid mb-4">
+            <h4 class="font-weight-bold text-uppercase"><a href="#" class="no-anchor-style">Princess Leia</a></h4>
+            <p class="small text-gray text-uppercase">Team leader</p>
+            <ul class="mb-0 list-inline mb-3">
+              <li class="list-inline-item"><a href="#" class="social-link social-link-facebook"><i class="fab fa-facebook-f"></i></a></li>
+              <li class="list-inline-item"><a href="#" class="social-link social-link-twitter"><i class="fab fa-twitter"></i></a></li>
+              <li class="list-inline-item"><a href="#" class="social-link social-link-google-plus"><i class="fab fa-google-plus-g"></i></a></li>
+              <li class="list-inline-item"><a href="#" class="social-link social-link-instagram"><i class="fab fa-instagram"></i></a></li>
+              <li class="list-inline-item"><a href="#" class="social-link social-link-email"><i class="fas fa-envelope"></i></a></li>
+            </ul>
+            <p class="small text-gray">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4"><img src="img/person-4.jpg" alt="Jabb Hut" class="img-fluid mb-4">
+            <h4 class="font-weight-bold text-uppercase"><a href="#" class="no-anchor-style">Jabb Hut</a></h4>
+            <p class="small text-gray text-uppercase">Lead developer</p>
+            <ul class="mb-0 list-inline mb-3">
+              <li class="list-inline-item"><a href="#" class="social-link social-link-facebook"><i class="fab fa-facebook-f"></i></a></li>
+              <li class="list-inline-item"><a href="#" class="social-link social-link-twitter"><i class="fab fa-twitter"></i></a></li>
+              <li class="list-inline-item"><a href="#" class="social-link social-link-google-plus"><i class="fab fa-google-plus-g"></i></a></li>
+              <li class="list-inline-item"><a href="#" class="social-link social-link-instagram"><i class="fab fa-instagram"></i></a></li>
+              <li class="list-inline-item"><a href="#" class="social-link social-link-email"><i class="fas fa-envelope"></i></a></li>
+            </ul>
+            <p class="small text-gray">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <!-- Contact Section
+    <section id="contact">
+      <div class="container">
+        <header class="text-center mb-5">
+          <h2 class="text-uppercase lined">Contacto</h2>
+        </header>
+        <div class="row">
+          <div class="col-lg-6">
+            <form action="" class="contact-form">
+              <div class="row">
+                <div class="form-group col-lg-6">
+                  <label for="firstName">Nome próprio *</label>
+                  <input id="firstName" type="text" name="firstname" placeholder="O teu primeiro nome" class="form-control">
+                </div>
+                <div class="form-group col-lg-6">
+                  <label for="lastName">Apelido *</label>
+                  <input id="lastName" type="text" name="lastname" placeholder="O teu apelido" class="form-control">
+                </div>
+                <div class="form-group col-lg-12">
+                  <label for="email">E-mail *</label>
+                  <input id="email" type="email" name="email" placeholder="O teu e-mail" class="form-control">
+                </div>
+                <div class="form-group col-lg-12">
+                  <label for="message">Mensagem *</label>
+                  <textarea id="message" name="message" placeholder="Escreve a tua mensagem" rows="4" class="form-control"></textarea>
+                </div>
+                <div class="form-group col-lg-12">
+                  <button type="submit" class="btn btn-outline-primary w-100">Enviar mensagem</button>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="col-lg-6">
+            <p>O médico é o profissional da saúde autorizado pelo Estado para exercer a Medicina; se ocupa da saúde humana, prevenindo, diagnosticando, tratando e curando as doenças, o que requer conhecimento detalhado de disciplinas acadêmicas (como anatomia e fisiologia) por detrás das doenças e do tratamento - a ciência da medicina - e também competência na sua prática aplicada - a arte da medicina.</p>
+            <p>Coloquialmente o médico é frequentemente referido como doutor. Antigamente o médico era também referido como físico ou facultativo, distinguindo-se então do cirurgião que constituía uma profissão distinta.</p>
+          </div>
+        </div>
+      </div>
+    </section>-->
+    <footer class="py-4 bg-gray">
+      <div class="container">
+        <div class="row justify-content-center">
+          <ul class="mb-2 list-inline text-center">
+            <li class="list-inline-item"><a href="#" class="social-link social-link-facebook"><i class="fab fa-facebook-f"></i></a></li>
+            <li class="list-inline-item"><a href="#" class="social-link social-link-twitter"><i class="fab fa-twitter"></i></a></li>
+            <!-- <li class="list-inline-item"><a href="#" class="social-link social-link-google-plus"><i class="fab fa-google-plus-g"></i></a></li> -->
+            <li class="list-inline-item"><a href="#" class="social-link social-link-instagram"><i class="fab fa-instagram"></i></a></li>
+            <li class="list-inline-item"><a href="#" class="social-link social-link-email"><i class="fas fa-envelope"></i></a></li>
+          </ul>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 text-center text-lg-left">
+            <p class="mb-0 text-gray">&copy; 2020 Comissão Organizadora III JIM MGF ARSLVT</p>
+          </div>
+          <div class="col-lg-6 text-center text-lg-right">
+            <p class="mb-0 text-gray">&copy; Template by Bootstrapious — <a href="https://bootstrapious.com/" class="text-gray">Bootstrap Templates</a></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- JavaScript files-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/lightbox2/js/lightbox.min.js"></script>
+    <script src="vendor/smooth-scroll/smooth-scroll.polyfills.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.js"> </script>
+    <script src="js/front.js"></script>
+      <script src="js/jquery.countdown.min.js"></script>
+    <script src="js/cdown.js"></script>
+    <!-- FontAwesome CSS - loading as last, so it doesn't block rendering-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  </body>
+</html>
