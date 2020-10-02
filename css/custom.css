@@ -3,6 +3,10 @@ a[role="button"]:hover {
   text-decoration: none !important;
 }
 
+.lead p, p.lead {
+  font-weight:500;
+}
+
 .embed-responsive {
   height:50vh;
 }
