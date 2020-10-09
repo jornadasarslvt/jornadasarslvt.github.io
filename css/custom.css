@@ -3,6 +3,8 @@ a[role="button"]:hover {
   text-decoration: none !important;
 }
 
+.smaller {font-size: 60%;}
+
 .lead p, p.lead {
   font-weight:500;
 }
