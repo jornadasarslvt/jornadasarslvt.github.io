@@ -71,6 +71,26 @@ background-position: center bottom;
 *
 */
 
+.faq-title {
+  position: relative;
+  text-decoration: underline;
+}
+  
+.faq-title::after {
+	content: "\f0d7";
+	color: #333;
+	top: -2px;
+	right: 0px;
+	position: inline;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+}
+
+.faq-title[aria-expanded="true"]::after {
+	content: "\f0d8";
+}
+
+
 /* cdown */
 
 #cdown {
