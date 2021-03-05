@@ -13,9 +13,11 @@ a[role="button"]:hover {
   height:50vh;
 }
 
-.btn-outline-dark {
+.btn-block {
   border-width: 3px;
 }
+
+.btn-outline-white {border-color:white;}
 
 .social-link {
   font-size: 1rem;
@@ -238,3 +240,5 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .headings-font-family {
   font-family: "Josefin Sans" !important;
 }
+
+#map {height: 50vh;}
