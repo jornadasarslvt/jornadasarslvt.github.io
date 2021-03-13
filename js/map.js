@@ -5,7 +5,7 @@ $(function () {
 	// ------------------------------------------------------ //
 
 	var mapId = 'map',
-		mapCenter = [38.9073603,1.4121383],
+		mapCenter = [39.07726,-9.259394],
 		mapMarker = true;
 
 	if ($('#' + mapId).length > 0) {
@@ -26,8 +26,8 @@ $(function () {
 		}
 
 		var map = L.map(mapId, {
-			center: mapCenter,
-			zoom: 10,
+			center: [39.085,-9.259394],
+			zoom: 14,
 			dragging: dragging,
 			tap: tap,
 			scrollWheelZoom: false
@@ -52,9 +52,9 @@ $(function () {
 				icon: icon
 			}).addTo(map);
 
-			marker.bindPopup("<div class='p-4'><h5>Info Window Content</h5><p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p></div>", {
+			marker.bindPopup("<div class='row'><div class='col'><img src='/img/local.jpg' class='img-fluid mh-75 rounded' style='object-fit:cover'></div></div><div class='row'><div class='col pt-3'><h3>Centro Social e Paroquial de Torres Vedras</h3></div></div><div class='row'><div class='col py-0'><a role='button' target='_blank' href='https://goo.gl/maps/mpmBb3NhLDdv8sVb9'><button class='shadow-sm btn btn-outline-primary btn-sm d-inline-block text-uppercase font-weight-bold h6'><span class='icon' style='color:inherit;'><i class='fas fa-map-marker-alt align-middle'></i></span> Ver coordenadas</button></a></div></div>", {
 				minwidth: 200,
-				maxWidth: 600,
+				maxWidth: 400,
 				className: 'map-custom-popup'
 			})
 
