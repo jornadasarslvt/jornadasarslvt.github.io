@@ -1,0 +1,240 @@
+/* custom */
+a[role="button"]:hover {
+  text-decoration: none !important;
+}
+
+.smaller {font-size: 60%;}
+
+.lead p, p.lead {
+  font-weight:500;
+}
+
+.embed-responsive {
+  height:50vh;
+}
+
+.btn-outline-dark {
+  border-width: 3px;
+}
+
+.social-link {
+  font-size: 1rem;
+}
+
+.social-link-messenger {
+  background: #0078FF;
+}
+
+.link-email a {
+  color: #495057;
+}
+
+/*hero height change for banner */
+#info.hero {
+/*  min-height: calc(80vh - 59px) !important; */
+  min-height: auto !important;
+  height:auto !important;
+  background: rgb(255,255,255);
+  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(238,238,238,1) 100%);
+  background-attachment: fixed;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+} 
+
+#info .jumbotron {
+  background: none;
+}
+
+/* parallax
+
+/* Header Parallax Element Style 
+.paral {
+background-attachment: fixed;
+background-size: cover;
+background-position: center bottom;
+}
+
+/* .paralbg1 {
+  background-image:linear-gradient(rgba(255,255,255,0), rgba(255,255,255,0.3)),url("/img/1.jpg");
+  min-height: 80vh;
+}
+
+/* Remove Bottom Margin from Jumbotron
+.jumbotron{margin-bottom: 0;}
+
+/*
+*
+* =====================
+* COLOR CHANGE
+* =====================
+*
+*/
+
+.faq-title {
+  position: relative;
+  text-decoration: underline;
+}
+  
+.faq-title::after {
+	content: "\f0d7";
+	color: #333;
+	top: -2px;
+	right: 0px;
+	position: inline;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+}
+
+.faq-title[aria-expanded="true"]::after {
+	content: "\f0d8";
+}
+
+
+/* cdown */
+
+#cdown {
+  height: auto;
+  max-height: 20vh;
+}
+
+.countdown {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.countdown span {
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    font-size: 3rem;
+    margin-left: 0.8rem;
+}
+
+.countdown span:first-of-type {
+    margin-left: 0;
+}
+
+/* .countdown-circles {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.countdown-circles span {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.countdown-circles span:first-of-type {
+    margin-left: 0;
+} */
+
+/* overlay */
+
+.overlay {
+  background: rgba(81, 163, 167, 0.93);
+  background: -webkit-linear-gradient(to right, #007991, #51a3a7);
+  background: linear-gradient(to right, #007991, #51a3a7);
+}
+    
+/* 6aae7a --> 51a3a7 */
+
+.navbar .nav-link:hover, .link-scroll.active, a, .btn-link, .page-link {
+  color: #51a3a7;
+}
+
+.navbar-toggler:hover, .navbar-toggler:focus, .lined::after /*, .social-link */ {
+  background: #51a3a7;
+}
+
+.btn-primary, .btn-primary.disabled, .btn-primary:disabled, .btn-outline-primary:hover,
+.show > .btn-outline-primary.dropdown-toggle,
+.page-item.active .page-link {
+  background-color: #51a3a7;
+  border-color: #51a3a7;
+}
+
+.btn-outline-primary:hover * {
+  color: white !important;
+}
+
+.btn-outline-primary {
+  color: #51a3a7;
+  border-color: #51a3a7;
+  background-color: white;
+}
+
+.btn-outline-primary.disabled, .btn-outline-primary:disabled {
+  color: #51a3a7;
+}
+
+.btn-primary:hover, .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active {
+  background-color: #499296;
+  border-color: #499296;
+}
+
+.blockquote {
+  border-left: 5px solid #51a3a7;
+}
+
+.text-primary {
+  color: #51a3a7 !important;
+}
+
+.bg-primary {
+  background-color: #51a3a7 !important;
+}
+
+.border-primary {
+  border-color: #51a3a7 !important;
+}
+
+.badge-primary, .custom-control-input:checked ~ .custom-control-label::before, .custom-checkbox .custom-control-input:checked ~ .custom-control-label::before, .custom-checkbox .custom-control-input:indeterminate ~ .custom-control-label::before, .custom-radio .custom-control-input:checked ~ .custom-control-label::before, .nav-pills .nav-link.active, .nav-pills .show > .nav-link,
+.dropdown-item.active, .dropdown-item:active {
+  background-color: #51a3a7;
+}
+
+.btn:focus, .btn.focus, .page-link:focus, .form-control:focus {
+  box-shadow: 0 0 0 0.2rem rgba(81, 163, 167, 0.25);
+}
+
+.custom-control-input:focus ~ .custom-control-label::before {
+  box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(81, 163, 167, 0.25);
+}
+
+.btn-primary:focus, .btn-primary.focus,
+.btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
+.show > .btn-primary.dropdown-toggle:focus,
+.btn-outline-primary:focus, .btn-outline-primary.focus,
+.btn-outline-primary:not(:disabled):not(.disabled):active:focus, .btn-outline-primary:not(:disabled):not(.disabled).active:focus,
+.show > .btn-outline-primary.dropdown-toggle:focus
+{
+  box-shadow: 0 0 0 0.2rem rgba(81, 163, 167, 0.5);
+}
+
+.custom-checkbox .custom-control-input:disabled:checked ~ .custom-control-label::before,
+.custom-checkbox .custom-control-input:disabled:indeterminate ~ .custom-control-label::before,
+.custom-radio .custom-control-input:disabled:checked ~ .custom-control-label::before {
+  background-color: rgba(81, 163, 167, 0.5);
+}
+
+
+/*
+*
+* =====================
+* FONT CHANGE
+* =====================
+*
+*/
+.navbar .nav-link, .navbar-light .navbar-nav .nav-link,
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: "Josefin Sans";
+}
+
+.headings-font-family {
+  font-family: "Josefin Sans" !important;
+}

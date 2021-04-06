@@ -1,0 +1,6 @@
+==TODO==
+x Substituir cover por banner
+  x Introduzir relógio countdown
+. Escrever parágrafo introdutório com imagem
+. Inscrição - embed Google Form
+. Eliminar secção contacto
