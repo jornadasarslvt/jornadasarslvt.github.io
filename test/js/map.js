@@ -5,7 +5,7 @@ $(function () {
 	// ------------------------------------------------------ //
 
 	var mapId = 'map',
-		mapCenter = [39.07726,-9.259394],
+		mapCenter = [39.0831252,-9.260936],
 		mapMarker = true;
 
 	if ($('#' + mapId).length > 0) {
@@ -13,8 +13,6 @@ $(function () {
 		var icon = L.icon({
 			iconUrl: 'img/marker.png',
 			iconSize: [25, 37.5],
-			popupAnchor: [0, -18],
-			tooltipAnchor: [0, 19]
 		});
 
 		var dragging = false,
@@ -26,8 +24,8 @@ $(function () {
 		}
 
 		var map = L.map(mapId, {
-			center: [39.085,-9.259394],
-			zoom: 14,
+			center: mapCenter,
+			zoom: 18,
 			dragging: dragging,
 			tap: tap,
 			scrollWheelZoom: false
@@ -49,14 +47,8 @@ $(function () {
 
 		if (mapMarker) {
 			var marker = L.marker(mapCenter, {
-				icon: icon
+				icon: icon,
 			}).addTo(map);
-
-			marker.bindPopup("<div class='row'><div class='col'><img src='/img/local.jpg' class='img-fluid mh-75 rounded' style='object-fit:cover'></div></div><div class='row'><div class='col pt-3'><h3>Centro Social e Paroquial de Torres Vedras</h3></div></div><div class='row'><div class='col py-0'><a role='button' target='_blank' href='https://goo.gl/maps/mpmBb3NhLDdv8sVb9'><button class='shadow-sm btn btn-outline-primary btn-sm d-inline-block text-uppercase font-weight-bold h6'><span class='icon' style='color:inherit;'><i class='fas fa-map-marker-alt align-middle'></i></span> Ver coordenadas</button></a></div></div>", {
-				minwidth: 200,
-				maxWidth: 400,
-				className: 'map-custom-popup'
-			})
 
 		}
 	}
