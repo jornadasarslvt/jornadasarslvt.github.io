@@ -3,15 +3,15 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Webinar Pré-Jornadas do Internato Médico MGF ARSLVT</title>
+    <title>III Jornadas do Internato Médico MGF ARSLVT</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="all,follow">
-    <meta property="og:title" content="INSCRIÇÕES ABERTAS: Webinar Pré-jornadas do Internato Médico MGF ARSLVT">
+    <meta property="og:title" content="III Jornadas do Internato Médico MGF ARSLVT">
     <meta property="og:image" content="img/link-img.png">
     <meta property="og:url" content="https://jornadasmgflvt.pt" />
-    <meta name="description" content="20-21 Nov 2020 | &quot;Sexualidade – Para além do óbvio&quot; | Inscreve-te já!">
-    <meta property="og:description" content="20-21 Nov 2020 | Sexualidade para além do óbvio | Inscreve-te já!">
+    <meta name="description" content="1-3 Julho 2021">
+    <meta property="og:description" content="1-3 Julho 2021">
     <meta property="og:type" content="website" />
     <!-- Bootstrap CSS-->
     <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
@@ -72,7 +72,7 @@
         <div class="container h-100 align-items-center">
           <div class="row h-100">
             <div class="col text-center justify-content-center align-self-center">
-              <h4 class="text-white mb-0 font-weight-bold text-uppercase">As pré-jornadas terão início dentro de</h4>
+              <h4 class="text-white mb-0 font-weight-bold text-uppercase">As jornadas terão início dentro de</h4>
               <div id="clock" class="countdown text-white"></div>
             </div>
           </div>
@@ -83,7 +83,7 @@
     <header class="header sticky-top">
       <nav class="navbar navbar-expand-md bg-white border-bottom py-0">
         <div class="container">
-          <a href="#" class="navbar-brand py-1 link-scroll"><img src="img/webinar.svg" alt="" class="img-fluid" style="height:50px;"></a>
+          <a href="#" class="navbar-brand py-1 link-scroll"><img src="img/logo-mini.svg" alt="" class="img-fluid" style="height:50px;"></a>
           <div class="d-flex flex-row order-2 order-md-3">
             <ul class="navbar-nav flex-row">
               <li class="nav-item"><a role="button" href="#inscrever" class="link-scroll"><button class="btn btn-primary rounded-pill nav-link text-uppercase text-white text-nowrap pl-3 pr-3 mr-2 nav-link" type="button"><span class="d-none d-sm-inline">Inscrever-me </span><i class="fas fa-user-plus"></i></button></a></li>
@@ -94,7 +94,7 @@
             <ul class="navbar-nav ml-auto px-3">
               <!--<li class="nav-item active"><a href="#intro" class="nav-link text-uppercase link-scroll">Intro</a></li>-->
               <li class="nav-item"><a href="#info" class="nav-link text-uppercase link-scroll">Informações</a></li>
-              <!--<li class="nav-item"><a href="#map" class="nav-link text-uppercase link-scroll">Mapa</a></li>-->
+              <li class="nav-item"><a href="#map" class="nav-link text-uppercase link-scroll">Mapa</a></li>
               <li class="nav-item"><a href="#program" class="nav-link text-uppercase link-scroll">Programa</a></li>
               <li class="nav-item"><a href="#inscrever" class="nav-link text-uppercase link-scroll d-md-none">Inscrever-me</a></li>
             </ul>
@@ -103,54 +103,63 @@
       </nav>
     </header>
     <!-- About Section-->
-    <section id="info" class="about hero pt-5">
+    <section id="info" class="about hero py-5">
       <!--<div class="parallax" data-parallax-image="img/1.jpg"></div>-->
-      <div class="container jumbotron pt-0">
-        <div class="row"><img src="img/webinar-full.svg" class="img-fluid w-75 mx-auto" alt="Webinar Pré-Jornadas &quot;Sexualidade para além do óbvio&quot; 20-21 Nov 2020"></div>
+      <div class="container jumbotron py-0">
+        <div class="row"><img src="img/logo-wide.svg" class="img-fluid mh-50 mw-75 px-5 mx-auto" alt="III Jornadas &quot;Sexualidade para além do óbvio&quot; 1-3 Julho 2021"></div>
         <div class="row">
           <div class="col">
             <header class="text-center my-5">
-              <h2 class="lined text-uppercase">Bem-vindo!</h2>
+              <h2 class="lined text-uppercase">Olá!</h2>
             </header>
             <div class="lead">
-              <p>Dado o contexto de pandemia que atravessamos, este ano não realizaremos as Jornadas do Internato ARSLVT presencialmente :(</p>
-              <p><span class="font-weight-bold text-primary">Mas</span>, a tua comissão organizadora não cruzou os braços e temos uma surpresa preparada para ti!</p>
-              <p>Nos dias <span class="font-weight-bold text-primary">20 e 21 de novembro</span> vamos realizar 2 sessões de webinar <span class="font-weight-bold bg-primary text-white rounded-pill px-2 text-nowrap">online <i class="fas fa-wifi"></i></span> com um dos temas mais votados: <a href="#program" class="link-scroll">“Sexualidade – para além do óbvio”.</a></p>
-              <p>Informamos ainda que este evento é <span class="font-weight-bold text-primary">totalmente gratuito</span> e que para internos da ARS LVT <span class="font-weight-bold text-primary">não é necessário</span> qualquer pedido de Comissão Gratuita de Serviço, bastará informar as direções de internato que irão participar neste evento.
+              <p>As III Jornadas do Internato de MGF seguem a tradição das edições anteriores: reunir os internos da ARS LVT num evento <span class="font-weight-bold text-primary">único</span>, uma oportunidade de partilha e aprendizagem, de crescimento pessoal e profissional, de networking entre internos e especialistas de Medicina Geral e Familiar.</p>
+              <p>Tendo por base a formação de excelência, as jornadas pretendem <span class="font-weight-bold text-primary">aproximar</span> os internos, um objetivo que ganha especial relevância num ano em que estamos fisicamente mais distantes.</p>
+              <p>Estamos a programar <span class="font-weight-bold text-primary">3 dias</span> de sessões plenárias, workshops e espaços para apresentação de trabalhos, de e para internos, num evento híbrido — contando com uma vertente <span class="font-weight-bold text-primary">presencial</span> mas também <span class="font-weight-bold text-primary">online <i class="fas fa-wifi"></i></span>.</p>
+              <p>Esperamos por ti nos dias <span class="font-weight-bold bg-primary text-white rounded-pill px-2 text-nowrap"><i class="far fa-calendar-alt"></i> 1, 2 e 3 de julho</span> – online e em <span class="font-weight-bold bg-primary text-white rounded-pill px-2 text-nowrap"><i class="fas fa-map-marker-alt"></i> Torres Vedras</span>!</p>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <!-- Map
-    <section id="map" class="border-bottom border-top"></section>-->
+    <!-- Map-->
+    <section id="map" class="border-bottom border-top"></section>
     <!-- Programa -->
-    <section id="program" class="pb-3">
-      <div class="parallax" data-parallax-image="img/2.jpg"></div>
+    <section id="program" class="">
+      <div class="parallax" data-parallax-image="img/parallax-bg.png"></div>
       <div class="container text-white">
         <!--<header class="text-center mb-5">
           <h2 class="lined text-uppercase">Programa</h2>
         </header>-->
-        <div class="row">
+        <!--<div class="row">
           <div class="col text-center">
             <p class="lead">Este ano o tema das tuas pré-jornadas é:</p>
             <h2 class="col pt-2 pb-2 text-white">Sexualidade – para além do óbvio</h2>
           </div>
+        </div>-->
+        <div class="row">
+          <div class="col-lg pb-3">
+            <a role="button" href="#inscrever" class="link-scroll"><button class="shadow btn btn-outline-primary btn-block h-100">
+              <div class="icon mb-3"><i class="fas fa-book-medical align-middle"></i></div>
+              <h4 class="text-uppercase font-weight-bold">Consultar programa</h4>
+              <p class="small text-gray">Programa a divulgar.</p>
+              </button></a>
+          </div>
+          <div class="col-lg pb-3">
+            <a role="button" href="#inscrever" class="link-scroll"><button class="shadow btn btn-outline-primary btn-block h-100">
+              <div class="icon mb-3"><i class="fas fa-user-plus align-middle"></i></div>
+              <h4 class="text-uppercase font-weight-bold">Inscrever-me</h4>
+              <p class="small text-gray">Inscrições ainda não abertas.</p>
+            </button></a>
+          </div>
+          <div class="col-lg pb-3">
+            <a role="button" href="#inscrever" class="link-scroll"><button class="shadow btn btn-outline-primary btn-block h-100">
+              <div class="icon mb-3"><i class="fas fa-file-upload align-middle"></i></div>
+              <h4 class="text-uppercase font-weight-bold">Submeter resumo</h4>
+              <p class="small text-gray">Ainda não disponível.</p>
+              </button></a>
+          </div>
         </div>
-              <div class="row">
-                <div class="col-sm pb-3">
-                  <a role="button" href="programa_webinar_sexualidade_2020.pdf" target="_blank" class="link-scroll"><button class="shadow btn btn-outline-dark btn-block h-100">
-                    <div class="icon mb-3"><i class="fas fa-book-medical align-middle text-white"></i></div>
-                    <h4 class="text-uppercase font-weight-bold text-white">Consultar programa</h4>
-                    </button></a>
-                </div>
-                <div class="col-sm pb-3">
-                  <a role="button" href="#inscrever" class="link-scroll"><button class="shadow btn btn-outline-dark btn-block h-100">
-                    <div class="icon mb-3"><i class="fas fa-user-plus align-middle text-white"></i></div>
-                    <h4 class="text-uppercase font-weight-bold text-white">Inscrever-me</h4>
-                  </button></a>
-                </div>
-              </div>
       </div>
     </section>
     <section id="inscrever" class="bg-white pt-5 pb-3">
@@ -158,38 +167,42 @@
         <header class="text-center mb-2">
           <h2 class="lined text-uppercase">Inscrição</h2>
         </header>
-        <div class="row justify-content-center mx-auto">
-          <!--div class="alert alert-warning shadow-sm"><span class="font-weight-bold text-primary">NOTA:</span> Dado o elevado número de inscrições recebidas informamos que a partir deste momento será dada prioridade à inscrição de internos de Medicina Geral e Familiar da ARSLVT. Agradecemos a compreensão.</div>-->
-        </div>
-        <div class="row justify-content-center mx-auto">
-          <a role="button" href="https://forms.gle/rMSVyDaxQrwdE1Gb7" target="_blank"><button class="shadow-sm btn btn-outline-primary btn-sm d-inline-block text-uppercase font-weight-bold h6 mb-3">
+        <!--<div class="row justify-content-center mx-auto">
+          div class="alert alert-warning shadow-sm"><span class="font-weight-bold text-primary">NOTA:</span> Dado o elevado número de inscrições recebidas informamos que a partir deste momento será dada prioridade à inscrição de internos de Medicina Geral e Familiar da ARSLVT. Agradecemos a compreensão.</div>
+        </div>-->
+        <!--<div class="row justify-content-center mx-auto">
+          <a role="button" href="#" target="_blank"><button class="shadow-sm btn btn-outline-primary btn-sm d-inline-block text-uppercase font-weight-bold h6 mb-3">
             <span class="icon" style="color:inherit;"><i class="fas fa-external-link-square-alt align-middle"></i></span> Abrir formulário em nova janela
           </button></a>
         </div>
         <div class="embed-responsive embed-responsive-1by1 bg-gray">
-            <iframe class="embed-responsive-item" src="https://docs.google.com/forms/d/e/1FAIpQLSepOG6dgjhlUwpwPDrTTRTjXRCbXDi15hZde6cBGZz6jn5rtQ/viewform?embedded=true"></iframe>
+            <iframe class="embed-responsive-item" src="https://docs.google.com/forms/d/e/1FAIpQLSfijWyJCgJD79I2AJUWUVP7PdIjrHOCImdmotVoyxF9ZidUSg/viewform?embedded=true"></iframe>
+        </div>-->
+        <div class="row justify-content-center mx-auto">
+          <p>Brevemente disponível.</p>
         </div>
       </div>
     </section>
-    <footer class="pb-1 pt-4 bg-gray">
+    <footer class="bg-gray py-2">
       <div class="container">
-        <div class="row justify-content-center">
-          <ul class="mb-3 list-inline text-center">
-            <li class="list-inline-item"><a href="https://facebook.com/JornadasInternatoARSLVT/" class="social-link social-link-facebook" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-            <li class="list-inline-item"><a href="https://m.me/JornadasInternatoARSLVT" class="social-link social-link-messenger" target="_blank"><i class="fab fa-facebook-messenger"></i></a></li>
-            <li class="list-inline-item"><i class="fas fa-envelope"></i> <span class="small link-email"><span class="spamspan"><span class="u">jornadasinternatomgf</span> [at] <span class="d">gmail [dot] com</span></span></span></li>
-            <!--<li class="list-inline-item"><a href="#" class="social-link social-link-twitter" target="_blank"><i class="fab fa-twitter"></i></a></li>
-            <li class="list-inline-item"><a href="#" class="social-link social-link-google-plus" target="_blank"><i class="fab fa-google-plus-g"></i></a></li>
-            <li class="list-inline-item"><a href="#" class="social-link social-link-instagram" target="_blank"><i class="fab fa-instagram"></i></a></li> 
-            <li class="list-inline-item"><a href="#" class="social-link social-link-email" target="_blank"><i class="fas fa-envelope"></i></a></li>-->
-          </ul>
-        </div>
         <div class="row">
-          <div class="col-lg-6 text-center text-lg-left">
-            <p class="smaller mb-0 text-gray">Baseado no Template by Bootstrapious — <a href="https://bootstrapious.com/" class="text-gray">Bootstrap Templates</a> &copy; e editado por Afonso Brás Sousa</p>
-          </div>
-          <div class="col-lg-6 text-center text-lg-right">
-            <p class="smaller mb-0 text-gray">&copy; 2020 Comissão Organizadora III JIM MGF ARSLVT</p>
+          <div class="col-3 col-sm-2 px-0"><img src="img/ci.svg" style="max-height:5rem;"></div>
+          <div class="col-9 col-sm-10 px-0 my-auto">
+            <div class="row justify-content-center mx-auto">
+              <ul class="list-inline text-center">
+                <li class="list-inline-item"><a href="https://facebook.com/JornadasInternatoARSLVT/" class="social-link social-link-facebook" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                <li class="list-inline-item"><a href="https://m.me/JornadasInternatoARSLVT" class="social-link social-link-messenger" target="_blank"><i class="fab fa-facebook-messenger"></i></a></li>
+                <li class="list-inline-item"><a href="https://instagram.com/comissaointernosmgf.lvt/" class="social-link social-link-instagram" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                <li class="list-inline-item"><i class="fas fa-envelope"></i> <span class="small link-email"><span class="spamspan"><span class="u">jornadasinternatomgf</span> [at] <span class="d">gmail [dot] com</span></span></span></li>
+                <!--<li class="list-inline-item"><a href="#" class="social-link social-link-twitter" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                <li class="list-inline-item"><a href="#" class="social-link social-link-google-plus" target="_blank"><i class="fab fa-google-plus-g"></i></a></li>
+                <li class="list-inline-item"><a href="#" class="social-link social-link-instagram" target="_blank"><i class="fab fa-instagram"></i></a></li> 
+                <li class="list-inline-item"><a href="#" class="social-link social-link-email" target="_blank"><i class="fas fa-envelope"></i></a></li>-->
+              </ul>
+            </div>
+            <div class="row justify-content-center text-center mx-auto">
+              <p class="smaller mb-0 text-gray">Baseado no Template by Bootstrapious — <a href="https://bootstrapious.com/" class="text-gray">Bootstrap Templates</a> &copy; e editado por Afonso Brás Sousa<br>&copy; 2021 Comissão Organizadora III JIM MGF ARSLVT</p>
+            </div>
           </div>
         </div>
       </div>
@@ -204,6 +217,7 @@
     <script src="js/jquery.countdown.min.js"></script>
     <script src="js/cdown.js"></script>
     <script src="js/universal-parallax.min.js"></script>
+    <script src="js/map.js"></script>
     <script>new universalParallax().init();</script>
     <!-- FontAwesome CSS - loading as last, so it doesn't block rendering-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
