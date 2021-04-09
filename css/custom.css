@@ -4,10 +4,15 @@
   cursor:grab !important;
 }
 
+.row .flex {
+  display: inline-flex;
+  width: 100%;
+}
+
 .apoio {
+  object-fit: contain;
   max-height: 100px;
-  max-width: 250px;
-  padding: 2pt 0;
+  margin: .5rem 0;
 }
 
 a[role="button"]:hover {
