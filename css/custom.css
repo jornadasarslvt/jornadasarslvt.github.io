@@ -118,7 +118,7 @@ background-position: center bottom;
 
 .countdown span {
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
-    font-size: 3rem;
+    font-size: calc(12px + 5vmin);
     margin-left: 0.8rem;
 }
 
