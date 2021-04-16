@@ -100,6 +100,7 @@
               <li class="nav-item"><a href="#info" class="nav-link text-uppercase link-scroll">Sobre</a></li>
               <li class="nav-item"><a href="#map" class="nav-link text-uppercase link-scroll">Mapa</a></li>
               <li class="nav-item"><a href="#programa" class="nav-link text-uppercase link-scroll">Programa</a></li>
+              <li class="nav-item"><a href="#resumos" class="nav-link text-uppercase link-scroll">Resumos</a></li>
               <li class="nav-item"><a href="apoios.html" class="nav-link text-uppercase link-scroll">Apoios</a></li>
               <li class="nav-item"><a href="#inscrever" class="nav-link text-uppercase link-scroll d-md-none">Inscrever-me</a></li>
             </ul>
@@ -108,6 +109,14 @@
       </nav>
     </header>
     <!-- About Section-->
+    <section id="topbanner" class="my-0 py-0 bg-gray">
+      <div class="alert alert-warning alert-dismissible fade show mb-1" role="alert">
+        Já podes submeter os teus trabalhos para o congresso! <a href="#resumos" class="text-dark text-uppercase font-weight-bold py-0 pl-2">Consultar <i class="fas fa-angle-right"></i></a>
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+    </section>
     <section id="info" class="about hero py-5">
       <!--<div class="parallax" data-parallax-image="img/1.jpg"></div>-->
       <div class="container jumbotron py-0">
@@ -164,7 +173,6 @@
             <a role="button" href="#programa" class="link-scroll"><button class="shadow btn btn-outline-primary btn-block h-100">
               <div class="icon mb-3"><i class="fas fa-book-medical align-middle"></i></div>
               <h4 class="text-uppercase font-weight-bold">Consultar programa</h4>
-              <p class="small text-dark">Programa provisório já disponível.</p>
               </button></a>
           </div>
           <div class="col-lg pb-3">
@@ -174,10 +182,9 @@
             </button></a>
           </div>
           <div class="col-lg pb-3">
-            <a role="button" href="#inscrever" class="link-scroll"><button class="shadow btn btn-outline-primary btn-block h-100" disabled>
+            <a role="button" href="#inscrever" class="link-scroll"><button class="shadow btn btn-outline-primary btn-block h-100" style="border-color:#ffc107;">
               <div class="icon mb-3"><i class="fas fa-file-upload align-middle"></i></div>
-              <h4 class="text-uppercase font-weight-bold">Submeter resumo</h4>
-              <p class="small text-white">Brevemente disponível.</p>
+              <h4 style="display: inline-block" class="text-uppercase font-weight-bold">Submeter resumo </h4><span class="text-uppercase badge badge-pill badge-warning" style="vertical-align: top">novo</span>
               </button></a>
           </div>
         </div>
@@ -186,7 +193,8 @@
     <section id="programa" class="bg-white pt-5 pb-3">
       <div class="container">
         <header class="text-center mb-2">
-          <h2 class="lined text-uppercase">Programa</h2>
+          <h2 class="text-uppercase">Programa</h2>
+          <p class="lined text-dark small">Este programa é provisório e está sujeito a alterações.</p>
         </header>
         <!--<div class="row justify-content-center mx-auto">
           div class="alert alert-warning shadow-sm"><span class="font-weight-bold text-primary">NOTA:</span> Dado o elevado número de inscrições recebidas informamos que a partir deste momento será dada prioridade à inscrição de internos de Medicina Geral e Familiar da ARSLVT. Agradecemos a compreensão.</div>
@@ -269,6 +277,22 @@
           </div>
         </div>
     </section>
+    <section id="resumos" class="py-3" style="padding-left:40vw">
+      <div class="parallax" data-parallax-image="img/book.jpg"></div>
+      <div class="container">
+        <div class="row justify-content-center my-auto">
+          <div class="col-lg-12 text-center my-auto">
+            <p class="text-white">As submissões de resumos para o congresso estão <span class="font-weight-bold text-warning">abertas</span>!</p>
+          </div>
+          <div class="col text-center my-auto">
+            <a role="button" href="regulamento_submissao_resumos.pdf" target="_blank"><button type="button" class="btn btn-light text-dark d-inline-block text-uppercase font-weight-bold h6">Consultar regulamento <span class="icon" style="color:inherit;"></span></button></a>
+          </div>
+          <div class="col text-center my-auto">
+            <a role="button" href="https://eventgest.com/CLIENTES/apmgf/c_empty.php?gc=Evento-589803422-Inicio&set_lang=pt" target="_blank"><button class='shadow-sm btn btn-outline-primary d-inline-block text-uppercase font-weight-bold h6'><span class='icon' style='color:inherit;'><i class="fas fa-file-upload align-middle"></i></span> Submeter</button></a>
+          </div>
+        </div>
+      </div>
+    </section>
     <section id="prefooter" class="bg-white py-3">
       <div class="container">
         <div class="row justify-content-center my-auto">
@@ -277,6 +301,7 @@
           </div>
           <div class="col-6 my-auto text-center">
             <a role="button" href="apoios.html"><button type="button" class="btn btn-light text-dark d-inline-block text-uppercase font-weight-bold h6 text-nowrap">Ver apoios <span class="icon" style="color:inherit;"><i class="fas fa-angle-right align-middle"></i></span></button></a>
+          </div>
         </div>
       </div>
     </section>
