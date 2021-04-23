@@ -26,7 +26,7 @@
     <!-- Custom stylesheet - for your changes-->
     <link rel="stylesheet" href="css/custom.css">
     <!-- FontAwesome -->
-    <script src="https://kit.fontawesome.com/9677a19e7d.js" crossorigin="anonymous"></script>
+    <script data-search-pseudo-elements defer src="https://kit.fontawesome.com/9677a19e7d.js" crossorigin="anonymous"></script>
     <!-- Leaflet CSS - For the map-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.css">
     <!-- Favicon-->
@@ -127,10 +127,10 @@
               <h2 class="lined text-uppercase">Olá!</h2>
             </header>-->
             <div class="lead mt-3">
-              <p>As III Jornadas do Internato de MGF seguem a tradição das edições anteriores: reunir os internos da ARS LVT num evento <span class="font-weight-bold text-primary">único</span>, uma oportunidade de partilha e aprendizagem, de crescimento pessoal e profissional, de networking entre internos e especialistas de Medicina Geral e Familiar.</p>
-              <p>Tendo por base a formação de excelência, as jornadas pretendem <span class="font-weight-bold text-primary">aproximar</span> os internos, um objetivo que ganha especial relevância num ano em que estamos fisicamente mais distantes.</p>
-              <p>Estamos a programar <span class="font-weight-bold text-primary">3 dias</span> de sessões plenárias, workshops e espaços para apresentação de trabalhos, de e para internos, num evento híbrido — contando com uma vertente presencial mas também online.</p>
-              <p>Esperamos por ti nos dias <span class="font-weight-bold text-primary"><i class="far fa-calendar-alt"></i> 1, 2 e 3 de julho</span> – <span class="font-weight-bold bg-primary text-white rounded-pill px-2 text-nowrap"><i class="fas fa-wifi"></i> online</span> ou em <span class="font-weight-bold bg-primary text-white rounded-pill px-2 text-nowrap"><i class="fas fa-map-marker-alt"></i> Torres Vedras</span> !</p>
+              <p>As III Jornadas do Internato de MGF seguem a tradição das edições anteriores: reunir os internos da ARS LVT num evento <strong class="text-primary">único</strong>, uma oportunidade de partilha e aprendizagem, de crescimento pessoal e profissional, de networking entre internos e especialistas de Medicina Geral e Familiar.</p>
+              <p>Tendo por base a formação de excelência, as jornadas pretendem <strong class="text-primary">aproximar</strong> os internos, um objetivo que ganha especial relevância num ano em que estamos fisicamente mais distantes.</p>
+              <p>Estamos a programar <strong class="text-primary">3 dias</strong> de sessões plenárias, workshops e espaços para apresentação de trabalhos, de e para internos, num evento híbrido — contando com uma vertente presencial mas também online.</p>
+              <p>Esperamos por ti nos dias <strong class="text-primary"><i class="far fa-calendar-alt"></i> 1, 2 e 3 de julho</strong> – <span class="font-weight-bold bg-primary text-white rounded-pill px-2 text-nowrap"><i class="fas fa-wifi"></i> online</span> ou em <span class="font-weight-bold bg-primary text-white rounded-pill px-2 text-nowrap"><i class="fas fa-map-marker-alt"></i> Torres Vedras</span> !</p>
             </div>
           </div>
         </div>
@@ -255,27 +255,40 @@
             <p>Em ambas as modalidades de inscrição poderás submeter trabalhos para apresentação nas jornadas.</p>
           </div>
         </div>
-          <div class="row pl-3">
-            <div class="checkbox"> 
-              <label>
-              <input class="check_list" name="check_list[]" type="checkbox">
-              Li e compreendi que posso inscrever-me em <span class="font-weight-bold">apenas uma</span> das modalidades.
-              </label>
-            </div>
-          </div>
-          <div class="row pl-3">
-            <div class="checkbox"> 
-              <label>
-              <input class="check_list" name="check_list[]" type="checkbox">
-                Sou <span class="font-weight-bold">INTERNO</span> de MGF.
-              </label>
-            </div>
-          </div>
-          <div class="row justify-content-center mx-auto">
-            <a role="button" href="https://jornadasmgflvt.up.events" target="_blank"><button type="button" class="shadow-sm btn btn-outline-primary btn-sm d-inline-block text-uppercase font-weight-bold h6 mb-3" id="btn1" disabled=""><span class="icon" style="color:inherit;"><i class="fas fa-external-link-square-alt align-middle"></i></span> Prosseguir para inscrição</button></a>
-            <!--<p>As inscrições vão abrir brevemente.-->
+        <div class="row pl-3">
+          <div class="checkbox"> 
+            <label>
+            <input class="check_list" name="check_list[]" type="checkbox">
+            Li e compreendi que posso inscrever-me em <span class="font-weight-bold">apenas uma</span> das modalidades.
+            </label>
           </div>
         </div>
+        <div class="row pl-3">
+          <div class="checkbox"> 
+            <label>
+            <input class="check_list" name="check_list[]" type="checkbox">
+              Sou <span class="font-weight-bold">INTERNO</span> de MGF.
+            </label>
+          </div>
+        </div>
+        <div class="row justify-content-center mx-auto">
+          <a role="button" href="https://jornadasmgflvt.up.events" target="_blank"><button type="button" class="shadow-sm btn btn-outline-primary btn-sm d-inline-block text-uppercase font-weight-bold h6 mb-3" id="btn1" disabled=""><span class="icon" style="color:inherit;"><i class="fas fa-external-link-square-alt align-middle"></i></span> Prosseguir para inscrição</button></a>
+          <!--<p>As inscrições vão abrir brevemente.-->
+        </div>
+        <div class="row pt-3">
+              <a class="h4 faq-title" data-toggle="collapse" data-target="#faqOne">
+                <span class="faq-icon"></span> Informações importantes sobre CGS para internos da ARSLVT
+              </a>
+              <div id="faqOne" class="alert alert-light shadow-sm collapse">
+                <ol>
+                  <li>Estas Jornadas são o único evento que <strong class="text-primary">não entra</strong> em consideração nas ausências aos estágios/formações complementares/formações curtas. Neste sentido, qualquer interno de MGF da ARSLVT pode participar nas Jornadas, sem ser necessário pedido de CGS e sem ser contabilizada ausência, independentemente da formação que esteja a frequentar.
+                  <p class="small pt-1 my-0">Por exemplo:<br>a) Se o interno está de SU, tem dispensa para as jornadas sem ser necessária reposição do período de SU.<br>b) Se o interno já tem outros 3 dias de CGS/férias/ausência durante a formação desse mês, pode incluir mais estes 2 dias das Jornadas sem qualquer repercussão na formação em questão). A ausência deve ser devidamente indicada no SISQUAL.</p></li>
+                  <li>Para validação da ausência ao estágio e para obtenção de certificado de presença nas Jornadas, o interno deve comparecer em <strong class="text-primary">pelo menos 75%</strong> do tempo de cada sessão plenária e de cada workshop (seja no formato presencial ou online).</li>
+                  <li>Os internos inscritos nas Jornadas <strong class="text-primary">não</strong> necessitam de avisar a sua Direção de Internato da participação nas mesmas. A lista dos participantes será enviada, antes do evento, à Coordenação de Internato, que enviará as listas respetivas aos Diretores de Internato de cada ACES. Será também enviada, à Coordenação, a lista de participantes que cumpram os critérios de presença no final das Jornadas (de acordo com o ponto prévio).</li>
+                </ol>
+              </div>
+        </div>
+      </div>
     </section>
     <section id="resumos" class="py-6" style="padding-left:40vw">
       <div class="parallax" data-parallax-image="img/book.jpg"></div>
