@@ -87,6 +87,10 @@ background-position: center bottom;
   display:none;
 }
 
+.faq-title {
+  cursor: pointer;
+}
+
 .faq-title .faq-icon::before {
     font-family: "Font Awesome 5 Free";
     font-weight: 400;
