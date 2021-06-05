@@ -15,6 +15,10 @@
   margin: .5rem 0;
 }
 
+.apoio.small {
+  max-width:175px;
+}
+
 a[role="button"]:hover {
   text-decoration: none !important;
 }
