@@ -89,8 +89,6 @@ background-position: center bottom;
 
 #programa .carousel-control-next, .carousel-control-prev {
   width: auto;
-  margin-left: -2em;
-  margin-right: -2em;
 }
 
 .faq-icon::before {
