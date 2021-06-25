@@ -18,15 +18,8 @@
     <!-- Google fonts-->
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
-    <!-- Lightbox -->
-    <link type="text/css" rel="stylesheet" href="lightgallery/css/lightgallery.css" />
-    <link type="text/css" rel="stylesheet" href="lightgallery/css/lightgallery-core.css" />
-    <!-- lightgallery plugins -->
-    <link type="text/css" rel="stylesheet" href="lightgallery/css/lg-zoom.css" />
-    <link type="text/css" rel="stylesheet" href="lightgallery/css/lg-thumbnail.css" />
-    <link type="text/css" rel="stylesheet" href="lightgallery/css/lg-fullscreen.css" />
-    <link type="text/css" rel="stylesheet" href="lightgallery/css/lg-relative-caption.css" />
-    <link type="text/css" rel="stylesheet" href="lightgallery/css/lg-transitions.css" />
+    <!-- Lightbox-->
+    <link rel="stylesheet" href="css/ekko-lightbox.css">
     <!-- theme stylesheet-->
     <link rel="stylesheet" href="css/style.green.css" id="theme-stylesheet">
     <!-- Custom stylesheet - for your changes-->
@@ -114,15 +107,16 @@
       <header class="text-center mb-4">
         <h2 class="lined text-uppercase mb-5">Pósteres</h2>
       </header>
-      <div class="row p-0 my-0 mx-2" id="lightgallery">
+      <div class="row p-0 my-0 mx-2">
         <!--
-="<div class='col-lg-3 col-md-4 col-6 p-2'><a href='img/poster/p"&A2&".jpg' data-lg-size='600-801' class='lg-item' data-sub-html='<h3 class=text-white>"&D2&"</h3><p>"&E2&IF(ISBLANK(H2);"";"; "&H2)&"</p>'><img src='img/poster/min/p"&A2&".jpg' class='img-fluid d-block mx-auto rounded'></a></div>"
+="<div class='col-lg-3 col-md-4 col-6 p-2'><a href='img/poster/p"&Folha1!A2&".png' data-toggle='lightbox' data-gallery='posteres' data-title='"&Folha1!D2&"' data-footer='<p><b>"&Folha1!E2&"</b>; "&Folha1!H2&"</p><p class=small>"&Folha1!I2&"</p>'><img src='img/poster/min/p"&Folha1!A2&".png' class='img-fluid d-block mx-auto rounded'></a></div>"
 -->
-<div class='col-lg-3 col-md-4 col-6 p-2'><a href='img/poster/p7.jpg' data-lg-size='600-801' class='lg-item' data-sub-html='<h3 class=text-white>São os flavonóides eficazes no tratamento do varicocelo?</h3><p>João Pedro Alves de Sousa Gomes de Amorim;Florinda Ribeiro2; Cláudia Penedo1</p>'><img src='img/poster/min/p7.jpg' class='img-fluid d-block mx-auto rounded'></a></div>
-<div class='col-lg-3 col-md-4 col-6 p-2'><a href='img/poster/p29.jpg' data-lg-size='600-801' class='lg-item' data-sub-html='<h3 class=text-white>Dar voz aos sintomas: o papel do médico de família no acompanhamento de uma doença complexa</h3><p>Ana Catarina de Castro Catarina Gomes;Patricia Varela1</p>'><img src='img/poster/min/p29.jpg' class='img-fluid d-block mx-auto rounded'></a></div>
-<div class='col-lg-3 col-md-4 col-6 p-2'><a href='img/poster/p30.jpg' data-lg-size='600-801' class='lg-item' data-sub-html='<h3 class=text-white>Relação da dieta vegetariana com a incidência de cancro colorretal: uma revisão baseada na evidência</h3><p>Ana Catarina de Castro Catarina Gomes;Sónia Barros2</p>'><img src='img/poster/min/p30.jpg' class='img-fluid d-block mx-auto rounded'></a></div>
-<div class='col-lg-3 col-md-4 col-6 p-2'><a href='img/poster/p91.jpg' data-lg-size='600-801' class='lg-item' data-sub-html='<h3 class=text-white>Probióticos em mulheres com vaginose bacteriana: uma revisão baseada na evidência</h3><p>Ana Cláudia Martins Novais;</p>'><img src='img/poster/min/p91.jpg' class='img-fluid d-block mx-auto rounded'></a></div>
-<div class='col-lg-3 col-md-4 col-6 p-2'><a href='img/poster/p191.jpg' data-lg-size='600-801' class='lg-item' data-sub-html='<h3 class=text-white>Particularidades do seguimento da gravidez múltipla</h3><p>Andreia Raquel Martins Pereira</p>'><img src='img/poster/min/p191.jpg' class='img-fluid d-block mx-auto rounded'></a></div>
+<div class='col-lg-3 col-md-4 col-6 p-2'><a href='img/poster/p7.jpg' data-toggle='lightbox' data-gallery='posteres' data-title='São os flavonóides eficazes no tratamento do varicocelo?' data-footer='<p><b>João Pedro Alves de Sousa Gomes de Amorim</b>; Florinda Ribeiro2; Cláudia Penedo1</p><p class=small>1USF Emergir; 2USF Costa do Estoril</p>'><img src='img/poster/min/p7.jpg' class='img-fluid d-block mx-auto rounded'></a></div>
+<div class='col-lg-3 col-md-4 col-6 p-2'><a href='img/poster/p29.jpg' data-toggle='lightbox' data-gallery='posteres' data-title='Dar voz aos sintomas: o papel do médico de família no acompanhamento de uma doença complexa' data-footer='<p><b>Ana Catarina de Castro Catarina Gomes</b>; Patricia Varela1</p><p class=small>1usf ronfe</p>'><img src='img/poster/min/p29.jpg' class='img-fluid d-block mx-auto rounded'></a></div>
+<div class='col-lg-3 col-md-4 col-6 p-2'><a href='img/poster/p30.jpg' data-toggle='lightbox' data-gallery='posteres' data-title='Relação da dieta vegetariana com a incidência de cancro colorretal: uma revisão baseada na evidência' data-footer='<p><b>Ana Catarina de Castro Catarina Gomes</b>; Sónia Barros2</p><p class=small>1usf ronfe; 2Hospital de Faro - Centro Hospitalar Universitário do Algarve</p>'><img src='img/poster/min/p30.jpg' class='img-fluid d-block mx-auto rounded'></a></div>
+<div class='col-lg-3 col-md-4 col-6 p-2'><a href='img/poster/p91.jpg' data-toggle='lightbox' data-gallery='posteres' data-title='Probióticos em mulheres com vaginose bacteriana: uma revisão baseada na evidência' data-footer='<p><b>Ana Cláudia Martins Novais</b>; </p><p class=small>1USF Locomotiva</p>'><img src='img/poster/min/p91.jpg' class='img-fluid d-block mx-auto rounded'></a></div>
+<div class='col-lg-3 col-md-4 col-6 p-2'><a href='img/poster/p191.jpg' data-toggle='lightbox' data-gallery='posteres' data-title='Particularidades do seguimento da gravidez múltipla' data-footer='<p><b>Andreia Raquel Martins Pereira</b>; </p><p class=small>1USF Vale do Vouga</p>'><img src='img/poster/min/p191.jpg' class='img-fluid d-block mx-auto rounded'></a></div>
+
         <!-- -->
       </div>
     </section>
@@ -153,7 +147,7 @@
     <!-- JavaScript files-->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
+    <script src="js/ekko-lightbox.js"></script>
     <script src="vendor/smooth-scroll/smooth-scroll.polyfills.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.js"> </script>
     <script src="js/front.js"></script>
@@ -161,20 +155,50 @@
     <script src="js/cdown.js"></script>
     <script src="js/universal-parallax.min.js"></script>
     <script src="js/map.js"></script>
-    <script src="lightgallery/lightgallery.umd.js"></script>
-    <script src="lightgallery/plugins/zoom/lg-zoom.min.js"></script>
-    <script src="lightgallery/plugins/thumbnail/lg-thumbnail.min.js"></script>
-    <script src="lightgallery/plugins/fullscreen/lg-fullscreen.min.js"></script>
-    <script src="lightgallery/plugins/relativeCaption/lg-relative-caption.min.js"></script>
     <script>new universalParallax().init();</script>
-    <script type="text/javascript">
-        lightGallery(document.getElementById('lightgallery'), {
-          selector: '.lg-item',
-          plugins: [lgZoom, lgThumbnail, lgFullscreen, lgRelativeCaption],
-          speed: 500,
-          mode: 'lg-tube',
-          download: false,
-        });
+    <script>
+      $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+                event.preventDefault();
+                $(this).ekkoLightbox();
+            });
+    </script>
+    <script>
+$(document).on('click', '[data-toggle="lightbox"]', function() {
+    function scrollHorizontally(e) {
+        e = window.event || e;
+        var delta = Math.max(-1, Math.min(1, (e.wheelDelta || -e.detail)));
+        document.getElementsByClassName('modal-footer')[0].scrollLeft -= (delta * 40); // Multiplied by 40
+        e.preventDefault();
+    }
+    if (document.getElementsByClassName('modal-footer')[0].addEventListener) {
+        // IE9, Chrome, Safari, Opera
+        document.getElementsByClassName('modal-footer')[0].addEventListener('mousewheel', scrollHorizontally, false);
+        // Firefox
+        document.getElementsByClassName('modal-footer')[0].addEventListener('DOMMouseScroll', scrollHorizontally, false);
+    } else {
+        // IE 6/7/8
+        document.getElementsByClassName('modal-footer')[0].attachEvent('onmousewheel', scrollHorizontally);
+    }
+})();
+    </script>
+    <script>
+$(document).on('click', '[data-toggle="lightbox"]', function() {
+    function scrollHorizontally2(e) {
+        e = window.event || e;
+        var delta = Math.max(-1, Math.min(1, (e.wheelDelta || -e.detail)));
+        document.getElementsByClassName('modal-title')[0].scrollLeft -= (delta * 40); // Multiplied by 40
+        e.preventDefault();
+    }
+    if (document.getElementsByClassName('modal-title')[0].addEventListener) {
+        // IE9, Chrome, Safari, Opera
+        document.getElementsByClassName('modal-title')[0].addEventListener('mousewheel', scrollHorizontally2, false);
+        // Firefox
+        document.getElementsByClassName('modal-title')[0].addEventListener('DOMMouseScroll', scrollHorizontally2, false);
+    } else {
+        // IE 6/7/8
+        document.getElementsByClassName('modal-title')[0].attachEvent('onmousewheel', scrollHorizontally2);
+    }
+})();
     </script>
   </body>
 </html>
