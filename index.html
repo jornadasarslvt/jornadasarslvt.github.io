@@ -8,11 +8,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="all,follow">
     <meta property="og:site_name" content="III Jornadas do Internato Médico MGF ARSLVT">
-    <meta property="og:title" content="INSCRIÇÕES E SUBMISSÕES ABERTAS | III Jornadas do Internato Médico MGF ARSLVT">
+    <meta property="og:title" content="LIVE | III Jornadas do Internato Médico MGF ARSLVT">
     <meta property="og:image" itemprop="image" content="http://jornadasmgflvt.pt/img/link-img.png">
     <meta property="og:url" content="https://jornadasmgflvt.pt" />
-    <meta name="description" content="1-3 Julho 2021 | Submete já o teu resumo!">
-    <meta property="og:description" content="1-3 Julho 2021 | Submete já o teu resumo!">
+    <meta name="description" content="1-3 Julho 2021">
+    <meta property="og:description" content="1-3 Julho 2021">
     <meta property="og:type" content="website" />
     <!-- Bootstrap CSS-->
     <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
@@ -49,38 +49,24 @@
     </script>
   </head>
   <body>
-    <!-- Hero Section
-    <section id="intro" style="" class="hero bg-cover">
+    <!-- Hero Section -->
+    <section id="intro" class="hero">
       <div class="overlay">
-        <div class="content h-100 d-flex align-items-center">
-          <div class="container h-75">
-            <div class="row">
-              <figure class="col">
-                <img src="img/bridge.png" class="img-fluid">
-              </figure>
-            </div>
-            <div class="row">
-              <div class="col text-center text-white mh-25">
-                <h2 class="text-uppercase text-white">ESTAMOS EM CONSTRUÇÃO</h2>
+        <!--        <video autoplay muted loop poster="https://dummyimage.com/900x400/000/fff">  -->
+        <video autoplay muted loop playsinline >    
+          <source src="mp4/bg.mp4" type="video/mp4">
+        </video>
+        <div class="content h-100">
+          <div class="container-lg h-100">
+            <div class="row h-100">
+              <div class="col my-auto">
+                <img src="img/logo-wide-white.svg" class="img-fluid mx-auto" alt="III Jornadas MGF ARSLVT 1-3 Julho 2021">
+                <div id="clock" class="countdown text-white text-center pt-4"></div>
               </div>
             </div>
           </div>
         </div>
-        <a href="#info" class="scroll-btn link-scroll"><i class="fas fa-angle-double-down"></i></a>
-      </div>
-    </section>
-    -->
-    <!-- Countdown banner -->
-    <section id="cdown" class="">
-      <div class="overlay">
-        <div class="container h-100 align-items-center">
-          <div class="row h-100">
-            <div class="col text-center justify-content-center align-self-center">
-              <h4 class="text-white mb-0 font-weight-bold text-uppercase">As jornadas terão início dentro de</h4>
-              <div id="clock" class="countdown text-white"></div>
-            </div>
-          </div>
-        </div>
+        <!--<a href="#info" class="scroll-btn link-scroll"><i class="fas fa-angle-double-down"></i></a>-->
       </div>
     </section>
     <!-- Navbar-->
@@ -89,128 +75,23 @@
         <div class="container-lg">
           <a href="#" class="navbar-brand py-1 link-scroll"><img src="img/logo-mini.svg" alt="" class="img-fluid" style="height:50px;"></a>
           <div class="d-flex flex-row order-2 order-md-3">
-            <ul class="navbar-nav flex-row">
-              <li class="nav-item"><a role="button" href="#inscrever" class="link-scroll"><button class="btn btn-primary rounded-pill nav-link text-uppercase text-white text-nowrap pl-3 pr-3 mr-2 nav-link" type="button"><span class="d-none d-sm-inline">Inscrição </span><i class="fas fa-user-plus"></i></button></a></li>
-            </ul>
             <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><span class="fas fa-bars"></span></button>
           </div>
           <div id="navbarSupportedContent" class="collapse navbar-collapse order-3 order-md-2">
             <ul class="navbar-nav ml-auto px-3">
               <!--<li class="nav-item active"><a href="#intro" class="nav-link text-uppercase link-scroll">Intro</a></li>-->
-              <li class="nav-item"><a href="#info" class="nav-link text-uppercase link-scroll">Sobre</a></li>
-              <li class="nav-item"><a href="#map" class="nav-link text-uppercase link-scroll">Mapa</a></li>
-              <li class="nav-item"><a href="#programa" class="nav-link text-uppercase link-scroll">Programa</a></li>
-              <li class="nav-item"><a href="#resumos" class="nav-link text-uppercase link-scroll">Resumos</a></li>
-              <li class="nav-item"><a href="apoios.html" class="nav-link text-uppercase link-scroll">Apoios</a></li>
-              <li class="nav-item"><a href="#inscrever" class="nav-link text-uppercase link-scroll d-md-none">Inscrição</a></li>
+              <li class="nav-item my-auto"><a href="#programa" class="nav-link text-uppercase link-scroll">Programa</a></li>
+              <li class="nav-item my-auto"><a href="#map" class="nav-link text-uppercase link-scroll">Mapa</a></li>
+              <li class="nav-item my-auto"><a href="#docs" class="nav-link text-uppercase link-scroll">Etc</a></li>
+              <li class="nav-item my-auto"><a href="apoios.html" class="nav-link text-uppercase link-scroll">Apoios</a></li>
+              <li class="nav-item my-auto"><a href="#posterwall" class="nav-link text-uppercase link-scroll py-0"><img src="img/posters-black.png" class="img-fluid mr-2" style="height:50px;">Pósteres</a></li>
             </ul>
           </div>
         </div>
       </nav>
     </header>
-    <!-- About Section-->
-    <!--<section id="topbanner" class="my-0 py-0 bg-gray">
-      <div class="alert alert-warning alert-dismissible fade show mb-1 text-center" role="alert">
-        O prazo para submeter os teus trabalhos para as jornadas foi <strong>alargado</strong>! <a href="#resumos" class="text-dark text-uppercase font-weight-bold py-0 pl-2 link-scroll">Consultar <i class="fas fa-angle-right"></i></a>
-        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-    </section>-->
-    <section id="info" class="about hero py-5">
-      <!--<div class="parallax" data-parallax-image="img/1.jpg"></div>-->
-      <div class="container jumbotron py-0">
-        <div class="row"><img src="img/logo-wide.svg" class="img-fluid mh-50 mw-75 px-5 mx-auto" alt="III Jornadas MGF ARSLVT 1-3 Julho 2021"></div>
-        <div class="row">
-          <div class="col">
-            <!--header class="text-center my-5">
-              <h2 class="lined text-uppercase">Olá!</h2>
-            </header>-->
-            <div class="lead mt-3">
-              <p>As III Jornadas do Internato de MGF seguem a tradição das edições anteriores: reunir os internos da ARS LVT num evento <strong class="text-primary">único</strong>, uma oportunidade de partilha e aprendizagem, de crescimento pessoal e profissional, de networking entre internos e especialistas de Medicina Geral e Familiar.</p>
-              <p>Tendo por base a formação de excelência, as jornadas pretendem <strong class="text-primary">aproximar</strong> os internos, um objetivo que ganha especial relevância num ano em que estamos fisicamente mais distantes.</p>
-              <p>Estamos a programar <strong class="text-primary">3 dias</strong> de sessões plenárias, workshops e espaços para apresentação de trabalhos, de e para internos, num evento híbrido — contando com uma vertente presencial mas também online.</p>
-              <p>Esperamos por ti nos dias <strong class="text-primary"><i class="far fa-calendar-alt"></i> 1, 2 e 3 de julho</strong> – <span class="font-weight-bold bg-primary text-white rounded-pill px-2 text-nowrap"><i class="fas fa-wifi"></i> online</span> ou em <span class="font-weight-bold bg-primary text-white rounded-pill px-2 text-nowrap"><i class="fas fa-map-marker-alt"></i> Torres Vedras</span> !</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Map-->
-    <section id="map" class="border-bottom border-top"></section>
-    <section id="map2" class="py-0">
-        <div class="container-lg mx-0">
-          <div class='row'>
-            <div class='col-md-6 px-0'>
-              <img src='./img/local.jpg' class='w-100' style="object-fit: fill;">
-            </div>
-            <div class='col-md-6 my-auto py-2'>
-              <h3>Centro Pastoral de Torres Vedras</h3>
-              <p class="text-gray"><span class='icon' style='color:inherit;'><i class='fas fa-map-marker-alt align-middle'></i></span> 39&deg;04&apos;59.3&quot;N 9&deg;15&apos;39.4&quot;W <span class="small pl-1">(39.0831252, -9.260936)</span></p>
-              <a role='button' target='_blank' href='https://goo.gl/maps/k5DzGYsThCExgFys7'><button class='shadow-sm btn btn-outline-primary d-inline-block text-uppercase font-weight-bold h6'><span class='icon' style='color:inherit;'><i class='fas fa-map-marked-alt align-middle'></i></span> Ver no mapa</button></a>
-              <a role='button' target='_blank' href='https://www.waze.com/ul?q=Centro%20Pastoral%20de%20Torres%20Vedras&ll=39.0831252,-9.260936&navigate=yes'><button class='shadow-sm btn btn-outline-primary d-inline-block text-uppercase font-weight-bold h6'><span class='icon' style='color:inherit;'><i class='fab fa-waze align-middle'></i></span> Navegar</button></a>
-              <button class='shadow-sm btn btn-outline-primary d-inline-block text-uppercase font-weight-bold h6 dropdown-toggle' data-toggle="collapse" data-target="#calendar" aria-expanded="false" aria-controls="calendar"><span class='icon' style='color:inherit;'><i class='fas fa-calendar-plus align-middle'></i></span> Adicionar à minha agenda</button>
-              <div class="collapse pb-2" id="calendar">
-                <div class="btn-group" role="group" aria-label="Basic example">
-                  <a role="button" href="https://calndr.link/e/D0V0AtftJJ?s=apple" target="_blank"><button type="button" class="btn btn-sm btn-outline-primary"><i class="fab fa-apple"></i> Apple</button></a>
-                  <a role="button" href="https://calndr.link/e/D0V0AtftJJ?s=google" target="_blank"><button type="button" class="btn btn-sm btn-outline-primary"><i class="fab fa-google"></i> Google</button></a>
-                  <a role="button" href="https://calndr.link/e/D0V0AtftJJ?s=office365" target="_blank"><button type="button" class="btn btn-sm btn-outline-primary "><i class="fab fa-microsoft"></i> Office 365</button></a>
-                  <a role="button" href="https://calndr.link/e/D0V0AtftJJ?s=outlookcom" target="_blank"><button type="button" class="btn btn-sm btn-outline-primary"> Outlook Web</button></a>
-                  <a role="button" href="https://calndr.link/e/D0V0AtftJJ?s=outlook" target="_blank"><button type="button" class="btn btn-sm btn-outline-primary">Outlook App</button></a>
-                  <a role="button" href="https://calndr.link/e/D0V0AtftJJ?s=yahoo" target="_blank"><button type="button" class="btn btn-sm btn-outline-primary"><i class="fab fa-yahoo"></i> Yahoo</button></a>
-                </div>
-              </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Buttonwall -->
-    <section id="buttonwall" class="">
-      <div class="parallax" data-parallax-image="img/parallax-bg.png"></div>
-      <div class="container text-white">
-        <div class="row">
-          <div class="col-lg pb-3">
-            <a role="button" href="#programa" class="link-scroll"><button class="shadow btn btn-outline-primary btn-block h-100">
-              <div class="icon mb-3"><i class="fas fa-book-medical align-middle"></i></div>
-              <h4 class="text-uppercase font-weight-bold">Consultar programa</h4>
-              </button></a>
-          </div>
-          <div class="col-lg pb-3">
-            <a role="button" href="#inscrever" class="link-scroll"><button class="shadow btn btn-outline-primary btn-block h-100">
-              <div class="icon mb-3"><i class="fas fa-user-plus align-middle"></i></div>
-              <h4 class="text-uppercase font-weight-bold">Inscrever-me</h4>
-            </button></a>
-          </div>
-          <div class="col-lg pb-3">
-            <a role="button" href="#resumos" class="link-scroll"><button class="shadow btn btn-outline-primary btn-block h-100" disabled>
-              <div class="icon mb-3"><i class="fas fa-file-upload align-middle"></i></div>
-              <h4 style="display: inline-block" class="text-uppercase font-weight-bold">Submeter resumo </h4><!--<span class="text-uppercase badge badge-pill badge-warning" style="vertical-align: top">novo</span>-->
-              </button></a>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="programa" class="bg-white pt-5 pb-3">
-      <div class="container">
-        <header class="text-center mb-2">
-          <h2 class="text-uppercase">Programa definitivo</h2>
-        </header>
-        <!--<div class="row justify-content-center mx-auto">
-          div class="alert alert-warning shadow-sm"><span class="font-weight-bold text-primary">NOTA:</span> Dado o elevado número de inscrições recebidas informamos que a partir deste momento será dada prioridade à inscrição de internos de Medicina Geral e Familiar da ARSLVT. Agradecemos a compreensão.</div>
-        </div>-->
-        <!--<div class="row justify-content-center mx-auto">
-          <a role="button" href="#" target="_blank"><button class="shadow-sm btn btn-outline-primary btn-sm d-inline-block text-uppercase font-weight-bold h6 mb-3">
-            <span class="icon" style="color:inherit;"><i class="fas fa-external-link-square-alt align-middle"></i></span> Abrir formulário em nova janela
-          </button></a>
-        </div>
-        <div class="embed-responsive embed-responsive-1by1 bg-gray">
-            <iframe class="embed-responsive-item" src="https://docs.google.com/forms/d/e/1FAIpQLSfijWyJCgJD79I2AJUWUVP7PdIjrHOCImdmotVoyxF9ZidUSg/viewform?embedded=true"></iframe>
-        </div>-->
-        <div class="row justify-content-center mx-0">
-          <a role='button' target='_blank' href='programa_definitivo.pdf'><button class='shadow-sm btn btn-outline-primary d-inline-block text-uppercase font-weight-bold h6 mx-1'><span class='icon' style='color:inherit;'><i class="far fa-file-pdf align-middle"></i></span> Ver em PDF</button></a>
-          <a role='button' target='_blank' href='programa_definitivo_1p.pdf'><button class='shadow-sm btn btn-outline-primary d-inline-block text-uppercase font-weight-bold h6 mx-1'><span class='icon' style='color:inherit;'><i class="fa fa-print align-middle"></i></span></button></a>
-        </div>
-        <div class="lined"></div>
+    <section id="programa" class="bg-white pt-0">
+      <div class="container-lg">
         <div class="row justify-content-center m-0 p-0">
           <div class="col p-0">
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="false">
@@ -247,87 +128,68 @@
             <p class="small">(workshops sujeitos a limitação de vagas)</p>
           </div>
         </div>
+        <div class="row justify-content-center mx-0">
+          <a role='button' target='_blank' href='pdf/Programa%20detalhado.pdf'><button class='shadow-sm btn btn-outline-primary d-inline-block text-uppercase font-weight-bold h6 mx-1'><span class='icon' style='color:inherit;'><i class="far fa-file-pdf align-middle"></i></span> Ver programa detalhado <p class="d-md-inline-block small mb-0">(24 pág.)</p></button></a>
+          <a role='button' target='_blank' href='pdf/programa_definitivo_1p.pdf'><button class='shadow-sm btn btn-outline-primary d-inline-block text-uppercase font-weight-bold h6 mx-1'><span class='icon' style='color:inherit;'><i class="fa fa-print align-middle"></i></span></button></a>
+        </div>
       </div>
     </section>
-    <section id="inscrever" class="bg-gray pt-5 pb-3">
-      <div class="container">
-        <header class="text-center mb-2">
-          <h2 class="lined text-uppercase">Inscrição</h2>
-        </header>
-        <div class="row justify-content-center mx-auto">
-          <div class="alert alert-warning shadow"><p><span class="font-weight-bold text-primary">NOTA:</span> O evento será realizado em formato híbrido, pelo que deves optar por <span class="font-weight-bold font- text-primary">APENAS UMA</span> das seguintes modalidades:</p>
-            <p class="pl-3"><span class="font-weight-bold text-primary">a) PRESENCIAL em Torres Vedras</span> <span class="small text-primary"><i class="fas fa-users"></i> 98 vagas</span><br>Pressupõe a presença em Torres Vedras nos 3 dias do evento, onde poderás assistir a todas as sessões plenárias e fazer os 4 workshops presenciais <span class="small">(Insulinoterapia, Prescrição de atividade física, Dispositivos inalatórios e Feridas complexas em MGF)</span>.</p>
-            <p>— ou —</p>
-            <p class="pl-3"><span class="font-weight-bold text-danger">b) ONLINE</span> <span class="small text-danger"><i class="fas fa-users"></i> 552 vagas</span><br>Poderás assistir online a todas as sessões plenárias e fazer 4 workshops, os quais poderás escolher entre as várias hipóteses que temos disponíveis.</p>
-            <p>Em ambas as modalidades de inscrição poderás submeter trabalhos para apresentação nas jornadas.</p>
-          </div>
-        </div>
-        <div class="row pl-3">
-          <div class="checkbox"> 
-            <label>
-            <input class="check_list" name="check_list[]" type="checkbox">
-            Li e compreendi que posso inscrever-me em <span class="font-weight-bold">apenas uma</span> das modalidades.
-            </label>
-          </div>
-        </div>
-        <div class="row pl-3">
-          <div class="checkbox"> 
-            <label>
-            <input class="check_list" name="check_list[]" type="checkbox">
-              Sou <span class="font-weight-bold">INTERNO</span> de MGF, ESPECIALISTA de MGF ou Interno de Formação Geral.
-            </label>
-          </div>
-        </div>
-        <div class="row justify-content-center mx-auto">
-          <a role="button" href="https://jornadasmgflvt.up.events" target="_blank"><button type="button" class="shadow-sm btn btn-outline-primary btn-sm d-inline-block text-uppercase font-weight-bold h6 mb-3" id="btn1" disabled=""><span class="icon" style="color:inherit;"><i class="fas fa-external-link-square-alt align-middle"></i></span> Prosseguir para inscrição</button></a>
-          <!--<p>As inscrições vão abrir brevemente.-->
-        </div>
-        <div class="row pt-3">
-              <div class="faq-title" data-toggle="collapse" data-target="#faqOne">
-                <span class="faq-icon h4"></span> <a class="h4"> Informações importantes sobre CGS para internos da ARSLVT</a> <span class="text-uppercase badge badge-pill badge-warning" style="vertical-align: top">ACTUALIZADO A 16/06/2021</span>
+    <!-- Map-->
+    <section id="map" class="border-bottom border-top"></section>
+    <section id="map2" class="py-0">
+        <div class="container-lg mx-0">
+          <div class='row'>
+            <div class='col-md-6 px-0'>
+              <img src='./img/local.jpg' class='w-100' style="object-fit: fill;">
+            </div>
+            <div class='col-md-6 my-auto py-2'>
+              <h3>Centro Pastoral de Torres Vedras</h3>
+              <p class="text-gray"><span class='icon' style='color:inherit;'><i class='fas fa-map-marker-alt align-middle'></i></span> 39&deg;04&apos;59.3&quot;N 9&deg;15&apos;39.4&quot;W <span class="small pl-1">(39.0831252, -9.260936)</span></p>
+              <a role='button' target='_blank' href='https://goo.gl/maps/k5DzGYsThCExgFys7'><button class='shadow-sm btn btn-outline-primary d-inline-block text-uppercase font-weight-bold h6'><span class='icon' style='color:inherit;'><i class='fas fa-map-marked-alt align-middle'></i></span> Ver no mapa</button></a>
+              <a role='button' target='_blank' href='https://www.waze.com/ul?q=Centro%20Pastoral%20de%20Torres%20Vedras&ll=39.0831252,-9.260936&navigate=yes'><button class='shadow-sm btn btn-outline-primary d-inline-block text-uppercase font-weight-bold h6'><span class='icon' style='color:inherit;'><i class='fab fa-waze align-middle'></i></span> Navegar</button></a>
+              <button class='shadow-sm btn btn-outline-primary d-inline-block text-uppercase font-weight-bold h6 dropdown-toggle' data-toggle="collapse" data-target="#calendar" aria-expanded="false" aria-controls="calendar"><span class='icon' style='color:inherit;'><i class='fas fa-calendar-plus align-middle'></i></span> Adicionar à minha agenda</button>
+              <div class="collapse pb-2" id="calendar">
+                <div class="btn-group" role="group" aria-label="Basic example">
+                  <a role="button" href="https://calndr.link/e/D0V0AtftJJ?s=apple" target="_blank"><button type="button" class="btn btn-sm btn btn-outline-primary"><i class="fab fa-apple"></i> Apple</button></a>
+                  <a role="button" href="https://calndr.link/e/D0V0AtftJJ?s=google" target="_blank"><button type="button" class="btn btn-sm btn btn-outline-primary"><i class="fab fa-google"></i> Google</button></a>
+                  <a role="button" href="https://calndr.link/e/D0V0AtftJJ?s=office365" target="_blank"><button type="button" class="btn btn-sm btn btn-outline-primary "><i class="fab fa-microsoft"></i> Office 365</button></a>
+                  <a role="button" href="https://calndr.link/e/D0V0AtftJJ?s=outlookcom" target="_blank"><button type="button" class="btn btn-sm btn btn-outline-primary"> Outlook Web</button></a>
+                  <a role="button" href="https://calndr.link/e/D0V0AtftJJ?s=outlook" target="_blank"><button type="button" class="btn btn-sm btn btn-outline-primary">Outlook App</button></a>
+                  <a role="button" href="https://calndr.link/e/D0V0AtftJJ?s=yahoo" target="_blank"><button type="button" class="btn btn-sm btn btn-outline-primary"><i class="fab fa-yahoo"></i> Yahoo</button></a>
+                </div>
               </div>
-              <div id="faqOne" class="alert alert-light shadow-sm collapse mt-2">
-                <ol>
-                  <li>Estas Jornadas são o único evento que <strong class="text-primary">não entra</strong> em consideração nas ausências aos estágios / formações complementares / formações curtas. Neste sentido, qualquer interno de MGF da ARSLVT pode participar nas Jornadas, sem ser necessário pedido de CGS e sem ser contabilizada ausência, independentemente da formação que esteja a frequentar.
-                  <p class="small py-1 my-0">Por exemplo:<br>a) Se o interno está de SU, tem dispensa para as jornadas sem ser necessária reposição do período de SU.<br>b) Se o interno já tem outros 3 dias de CGS/férias/ausência durante a formação desse mês, pode incluir mais estes 2 dias das Jornadas sem qualquer repercussão na formação em questão.</p>A ausência deve ser devidamente indicada no SISQUAL.</li>
-                  <li>Para garantir a dispensa de atividade assistencial nos dias úteis, o participante deve estar presente / online nos dias <strong class="text-primary">1 e 2 de Julho</strong>. A emissão do certificado de participação nas III Jornadas do Internato de MGF da ARSLVT requer a presença em <strong class="text-primary">pelo menos 75%</strong> do tempo total do evento.</li>
-                  <li>Os internos inscritos nas Jornadas <strong class="text-primary">não</strong> necessitam de avisar a sua Direção de Internato da participação nas mesmas. A lista dos participantes será enviada, antes do evento, à Coordenação de Internato, que enviará as listas respetivas aos Diretores de Internato de cada ACES. Será também enviada, à Coordenação, a lista de participantes que cumpram os critérios de presença no final das Jornadas (de acordo com o ponto prévio).</li>
-                </ol>
-              </div>
+          </div>
         </div>
       </div>
     </section>
-    <section id="resumos" class="py-6" style="padding-left:40vw">
-      <div class="parallax" data-parallax-image="img/book.jpg"></div>
-      <div class="container">
-        <div class="row justify-content-center my-auto">
-          <div class="col-lg-12 text-center my-auto">
-            <p class="text-white">As submissões de resumos para as jornadas estão <span class="font-weight-bold text-warning">encerradas</span>.</p>
-          </div>
-          <div class="col text-center my-auto">
-            <a role="button" href="regulamento_submissao_resumos.pdf" target="_blank"><button type="button" class="btn btn-light text-dark d-inline-block text-uppercase font-weight-bold h6">Consultar regulamento <span class="icon" style="color:inherit;"></span></button></a>
-          </div>
-          <!--<div class="col text-center my-auto">
-            <a role="button" href="#" target="_blank"><button class='shadow-sm btn btn-outline-primary d-inline-block text-uppercase font-weight-bold h6' disabled><span class='icon' style='color:inherit;'><i class="fas fa-file-upload align-middle"></i></span> Submeter</button></a>
-          </div>-->
-        </div>
-      </div>
-    </section>
-    <section id="docs" class="bg-gray pt-5 pb-3">
+    <section id="docs" class="bg-gray">
       <div class="container-xl">
         <div class="row">
           <div class="col-12 col-lg-6">
             <header class="text-center mb-2">
-              <h2 class="text-uppercase lined">Documentos importantes</h2>
+              <h3 class="text-uppercase lined">Informações</h3>
             </header>
           </div>
           <div class="col-12 col-lg-6">
             <a class="text-uppercase font-weight-bold h6" href="pdf/Plano%20de%20Contigencia%20COVID-19%20III%20Jornadas%20MGF.pdf" target="_blank"><p class="my-0"><span class="icon" style="color:inherit;"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></span> Plano de contingência COVID-19</p></a>
             <a class="text-uppercase font-weight-bold h6 my-0" href="pdf/Regulamento%20Passatempo%20SIM.pdf" target="_blank"><p class="my-0"><span class="icon" style="color:inherit;"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></span> Regulamento passatempo SIM</p></a>
-            <a class="text-uppercase font-weight-bold h6 my-0" href="pdf/Regulamento%20Peddy%20Paper.pdf" target="_blank"><p class="my-0"><span class="icon" style="color:inherit;"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></span> Regulamento peddy paper</p></a>
+            <a class="text-uppercase font-weight-bold h6 my-0" href="pdf/Regulamento%20Peddy%20Paper.pdf" target="_blank"><p class="my-0"><span class="icon" style="color:inherit;"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></span> Peddy paper fotográfico</p></a>
+            <a class="text-uppercase font-weight-bold h6 my-0" href="pdf/regulamento_submissao_resumos.pdf" target="_blank"><p class="my-0"><span class="icon" style="color:inherit;"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></span> Regulamento de resumos e apresentações</p></a>
           </div>
         </div>
       </div>
+    </section>
+    <section id="posterwall">
+      <a role="button" href="#posterwall" disabled>
+      <div class="container-lg">
+          <div class="row">
+            <div class="col-12 col-md-7 my-auto">
+              <img src="img/posters.png" class="img-fluid mh-50 mw-75 px-5 mx-auto">
+            </div>
+            <div class="col-12 col-md-5 my-auto"><button type="button" class="btn btn-link text-white d-inline-block text-uppercase font-weight-bold h3 text-wrap" disabled>Ver galeria de pósteres <span class="icon" style="color:inherit;"><i class="fas fa-angle-right align-middle"></i></span> <span class="text-uppercase badge badge-pill badge-dark" style="vertical-align: top">BREVEMENTE</span></button></div>
+          </div>
+        </div>
+      </a>
     </section>
     <section id="prefooter" class="bg-white py-3">
       <div class="container">
