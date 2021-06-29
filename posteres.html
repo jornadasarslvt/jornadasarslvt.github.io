@@ -52,7 +52,7 @@
         .staticrypt-form .staticrypt-decrypt-button {
             text-transform: uppercase;
             outline: 0;
-            background: #4CAF50;
+            background: #499296;
             width: 100%;
             border: 0;
             padding: 15px;
@@ -62,7 +62,7 @@
         }
 
         .staticrypt-form .staticrypt-decrypt-button:hover, .staticrypt-form .staticrypt-decrypt-button:active, .staticrypt-form .staticrypt-decrypt-button:focus {
-            background: #43A047;
+            background: #51a3a7;
         }
 
         .staticrypt-html {
@@ -71,15 +71,27 @@
 
         .staticrypt-body {
             margin-bottom: 1em;
-            background: #76b852; /* fallback for old browsers */
-            background: -webkit-linear-gradient(right, #76b852, #8DC26F);
-            background: -moz-linear-gradient(right, #76b852, #8DC26F);
-            background: -o-linear-gradient(right, #76b852, #8DC26F);
-            background: linear-gradient(to left, #76b852, #8DC26F);
-            font-family: "Arial", sans-serif;
+            background: #51a3a7; /* fallback for old browsers */
+            background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab, #51a3a7, #007991);
+            background-size: 400% 400%;
+            animation: gradient 15s ease-in-out infinite;
+            font-family: "Open Sans", sans-serif;
             -webkit-font-smoothing: antialiased;
             -moz-osx-font-smoothing: grayscale;
         }
+
+        @keyframes gradient {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
 
         .staticrypt-instructions {
             margin-top: -1em;
@@ -88,6 +100,8 @@
 
         .staticrypt-title {
             font-size: 1.5em;
+            font-family: "Josefin Sans";
+            text-transform: uppercase;
         }
 
         .staticrypt-footer {
@@ -118,9 +132,7 @@
     <div class="staticrypt-form">
         <div class="staticrypt-instructions">
             <p class="staticrypt-title">Página protegida</p>
-            <p><p><br />
-Insere a palavra-passe enviada aos inscritos.</p>
-</p>
+            <p>Insere a palavra-passe enviada aos inscritos.</p>
         </div>
 
         <hr class="staticrypt-hr">
