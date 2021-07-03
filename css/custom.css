@@ -405,6 +405,10 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   background: linear-gradient(to right, #007991, #51a3a7);
 }
 
+.overlay img {
+  max-height: 80vh;
+}
+
 #posterwall, #posternav {
   padding: 0;
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab, #51a3a7, #007991);
